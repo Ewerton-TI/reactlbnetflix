@@ -23,7 +23,7 @@ function CadastroVideo(){
     .then((categoriasFromServer) =>{
       setCategorias(categoriasFromServer);
     });
-  }, []);
+  },[]);
 
     return(
       <PageDefault>
